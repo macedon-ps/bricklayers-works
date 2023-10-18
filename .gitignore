@@ -1,0 +1,6 @@
+# ignore prepros files
+/sass
+
+# ignore log files
+*.config
+*.log

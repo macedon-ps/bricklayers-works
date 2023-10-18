@@ -754,9 +754,9 @@ img.icon{
       }
       .more_info-item{
         margin-top: 2em;
+        padding-left: 0;
       }
-
-
+      
     .row {
       display: -webkit-box;
       display: -ms-flexbox;
