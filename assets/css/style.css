@@ -219,10 +219,18 @@ body {
     width: 100%;
     margin: 0 auto;
     padding-left: 4em;
+    display: flex;
+    justify-content: center;
   }
-  .more_info-item div {
+  .more_info-item > div {
+    max-width: 600px;
     width: 100%;
   }
+  .more_info-item > div > a {
+    display: flex;
+    justify-content: center;
+  }
+
   .display-flex{
     display: flex;
     justify-content: space-between;
@@ -521,6 +529,9 @@ img.icon{
   max-width: 135px;
   max-height: 117px;
 }
+.buffer{
+  min-height: 1.5em;
+ }
 
 /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
@@ -995,7 +1006,9 @@ img.icon{
        .bricklayer-work-section > div{
         width: 100%;
        }
-       
+       .buffer{
+        min-height: 4em;
+       }
 
     .row {
       display: -webkit-box;
