@@ -217,7 +217,7 @@ body {
   }
   .more_info-item{
     width: 100%;
-    margin: 0 auto;
+    margin: 1em auto;
     padding-left: 4em;
     display: flex;
     justify-content: center;
@@ -253,6 +253,25 @@ body {
     flex-direction: column;
     margin-bottom: 0;
   }
+  .my-foto{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    aspect-ratio: 2/1;
+    object-fit: cover;
+    overflow: hidden;
+    vertical-align: middle;
+    align-items: center;
+    
+  }
+  .my-foto img{
+    max-width: 100%;
+    max-height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
   li.li-list{
     min-height: 95px;
     width: 100%;
@@ -1661,8 +1680,8 @@ img.icon{
     text-align: center;
     color: #A6A88F;
     border-top: solid 1px #ced0b7;
-    padding: 3em 0 0 0;
-    margin: 3em 0 0 0;
+    padding: 2em 0 0 0;
+    margin: 1em 0 0 0;
   }
   #copyright a {
     color: #A6A88F;
