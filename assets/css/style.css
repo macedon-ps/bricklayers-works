@@ -233,7 +233,9 @@ body {
     display: flex;
     justify-content: center;
   }
-
+  .more_info-item > div > a > img{
+    width: 100%;
+  }
   .display-flex{
     display: flex;
     justify-content: space-between;
@@ -249,7 +251,7 @@ body {
  }
   .container-display-flex div,
   .display-flex div{
-    margin: 0 2em 0.5em;
+    margin: 0 0.5em 0.5em;
   }
   ul.duties-list{
     display: flex;
