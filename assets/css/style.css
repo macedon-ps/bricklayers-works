@@ -159,6 +159,9 @@ body {
   }
   img.top {
     margin: 4px 0 2.25em 0;
+    max-height: 300px;
+    object-fit: cover;
+    overflow: hidden;
   }
   
   ul {
@@ -220,7 +223,7 @@ body {
   }
   .more_info-item{
     width: 100%;
-    margin: 1em auto;
+    margin: 0 auto;
     padding-left: 4em;
     display: flex;
     justify-content: center;
@@ -553,7 +556,7 @@ img.icon{
   max-height: 117px;
 }
 .buffer{
-  min-height: 1.5em;
+  /*min-height: 1.5em;*/
  }
 
 /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -1231,7 +1234,7 @@ img.icon{
     }
     .row.gtr-200 > * {
       padding: 100px 0 0 100px;
-    }
+    }img
     .row.gtr-200.gtr-uniform {
       margin-top: -100px;
     }
